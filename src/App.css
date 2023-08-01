@@ -1,0 +1,1406 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.aboutus-pvv {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.aboutus-pvv .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 4060px;
+  position: relative;
+  width: 1440px;
+}
+
+.aboutus-pvv .navbar {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #e2e2e2;
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.aboutus-pvv .link-logo-pvv-gif {
+  height: 32px;
+  left: 95px;
+  position: absolute;
+  top: 19px;
+  width: 90px;
+}
+
+.aboutus-pvv .item-link-home {
+  color: #232323;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 15px;
+  left: 550px;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-about-us {
+  color: #767676;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 15px;
+  left: 645px;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-investor {
+  color: #767676;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 15px;
+  left: 775px;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-contact-us {
+  color: #767676;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 15px;
+  left: 1004px;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .frame {
+  align-items: center;
+  background-color: #f0a31e;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  height: 42px;
+  justify-content: center;
+  left: 1155px;
+  padding: 10px;
+  position: absolute;
+  top: 14px;
+  width: 188px;
+}
+
+.aboutus-pvv .item-link-share {
+  color: var(--text-black);
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .WE-ARE-THE-LEADER-IN {
+  color: transparent;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  height: 198px;
+  left: 96px;
+  letter-spacing: 0.25px;
+  line-height: 52px;
+  position: absolute;
+  top: 189px;
+  width: 515px;
+}
+
+.aboutus-pvv .text-wrapper {
+  color: #232323;
+  font-weight: 600;
+}
+
+.aboutus-pvv .span {
+  color: #232323;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.aboutus-pvv .text-wrapper-2 {
+  color: #0178a0;
+  font-weight: 600;
+}
+
+.aboutus-pvv .text-wrapper-3 {
+  color: #0178a0;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.aboutus-pvv .rectangle {
+  height: 459px;
+  left: 631px;
+  object-fit: cover;
+  position: absolute;
+  top: 369px;
+  width: 713px;
+}
+
+.aboutus-pvv .m-s-PVV-infra {
+  color: #232323;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 84px;
+  left: 675px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 189px;
+  width: 669px;
+}
+
+.aboutus-pvv .img {
+  height: 340px;
+  left: 96px;
+  object-fit: cover;
+  position: absolute;
+  top: 488px;
+  width: 473px;
+}
+
+.aboutus-pvv .line {
+  height: 157px;
+  left: 270px;
+  position: absolute;
+  top: 852px;
+  width: 3px;
+}
+
+.aboutus-pvv .overlap-group {
+  height: 261px;
+  left: 96px;
+  position: absolute;
+  top: 1033px;
+  width: 348px;
+}
+
+.aboutus-pvv .element {
+  height: 222px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 348px;
+}
+
+.aboutus-pvv .OUR-HISTORY {
+  color: transparent;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  height: 78px;
+  left: 107px;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 183px;
+}
+
+.aboutus-pvv .text-wrapper-4 {
+  color: #f0a31e;
+}
+
+.aboutus-pvv .text-wrapper-5 {
+  color: #2b769e;
+}
+
+.aboutus-pvv .OUR-TEAM {
+  color: transparent;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 39px;
+  left: 630px;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 2471px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-6 {
+  color: #232323;
+}
+
+.aboutus-pvv .text-wrapper-7 {
+  color: #f0a31e;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.aboutus-pvv .text-wrapper-8 {
+  color: #2b769e;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.aboutus-pvv .overlap {
+  height: 771px;
+  left: 0;
+  position: absolute;
+  top: 3040px;
+  width: 1440px;
+}
+
+.aboutus-pvv .JOIN-OUR-GROWING {
+  color: transparent;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 39px;
+  left: 497px;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-9 {
+  color: #0178a0;
+}
+
+.aboutus-pvv .text-wrapper-10 {
+  color: #0178a0;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+}
+
+.aboutus-pvv .rectangle-2 {
+  height: 626px;
+  left: 904px;
+  position: absolute;
+  top: 0;
+  width: 536px;
+}
+
+.aboutus-pvv .rectangle-3 {
+  height: 626px;
+  left: 0;
+  position: absolute;
+  top: 145px;
+  width: 506px;
+}
+
+.aboutus-pvv .rectangle-4 {
+  -webkit-backdrop-filter: blur(200px) brightness(100%);
+  backdrop-filter: blur(200px) brightness(100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.22),
+      rgba(255, 255, 255, 0.2) 0.01%,
+      rgba(255, 255, 255, 0.8) 100%
+    )
+    1;
+  border-radius: 20px;
+  box-shadow: 2px 4px 32px #9d9d9d40;
+  height: 586px;
+  left: 488px;
+  position: absolute;
+  top: 134px;
+  width: 493px;
+}
+
+.aboutus-pvv .text-wrapper-11 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 28px;
+  left: 605px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 236px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 587px;
+  position: absolute;
+  top: 313px;
+}
+
+.aboutus-pvv .input {
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.75px solid;
+  border-color: #d1d1d1;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+  width: 295px;
+}
+
+.aboutus-pvv .div-placeholder {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: -14px;
+  margin-right: -14px;
+  padding: 0px 213px 0px 0px;
+  position: relative;
+  width: 291px;
+}
+
+.aboutus-pvv .text-wrapper-12 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.75px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .div-placeholder-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.75px solid;
+  border-color: #d1d1d1;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  padding: 9.75px 15.75px;
+  position: relative;
+  width: 295px;
+}
+
+.aboutus-pvv .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  margin-left: -0.75px;
+  margin-right: -0.75px;
+  padding: 0px 212.25px 0px 0px;
+  position: relative;
+  width: 265px;
+}
+
+.aboutus-pvv .input-2 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.75px solid;
+  border-color: #d1d1d1;
+  border-radius: 4px;
+  display: flex;
+  gap: 3px;
+  height: 40px;
+  overflow: hidden;
+  padding: 9.75px 123.98px 9.75px 15.75px;
+  position: relative;
+  width: 295px;
+}
+
+.aboutus-pvv .input-3 {
+  align-items: center;
+  background-color: #efefef;
+  border: 0.75px solid;
+  border-color: #767676;
+  border-radius: 1.88px;
+  display: flex;
+  justify-content: center;
+  padding: 2.25px 11.02px 2.25px 10.5px;
+  position: relative;
+  width: 86px;
+}
+
+.aboutus-pvv .text-wrapper-13 {
+  color: #000000;
+  font-family: "Arial-Narrow", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.75px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .text-wrapper-14 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -22.73px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .textarea {
+  background-color: #ffffff;
+  border: 0.75px solid;
+  border-color: #d1d1d1;
+  border-radius: 4px;
+  height: 79px;
+  position: relative;
+  width: 295px;
+}
+
+.aboutus-pvv .button {
+  align-items: center;
+  background-color: #f0a31e;
+  border: 1.5px solid;
+  border-radius: 3px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  padding: 4.5px 19.52px 4.5px 19.5px;
+  position: relative;
+  width: 295px;
+}
+
+.aboutus-pvv .send-message {
+  color: #ffffff;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.38px;
+  line-height: 18px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .p {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 120px;
+  left: 542px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 1032px;
+  width: 802px;
+}
+
+.aboutus-pvv .text-wrapper-15 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  left: 542px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 1176px;
+  width: 802px;
+}
+
+.aboutus-pvv .div-row-wrapper {
+  background-color: #d7eaf4;
+  height: 480px;
+  left: 0;
+  position: absolute;
+  top: 1399px;
+  width: 1440px;
+}
+
+.aboutus-pvv .div-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 30px;
+  left: 135px;
+  padding: 0px 15px;
+  position: relative;
+  top: 55px;
+  width: 1170px;
+}
+
+.aboutus-pvv .div-bg-white {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px 50px 75px;
+  position: relative;
+  width: 555px;
+}
+
+.aboutus-pvv .brain-svg {
+  flex: 0 0 auto;
+  max-width: 80px;
+  position: relative;
+  width: 80px;
+}
+
+.aboutus-pvv .text-wrapper-16 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .our-endeavour-is-to-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 0px 0px 0px 0.25px;
+  position: relative;
+  width: 485px;
+}
+
+.aboutus-pvv .our-endeavour-is-to {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: -0.25px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 485px;
+}
+
+.aboutus-pvv .div-bg-white-2 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px #0000001a;
+  height: 345px;
+  position: relative;
+  width: 555px;
+}
+
+.aboutus-pvv .win-svg {
+  height: 80px;
+  left: 238px;
+  position: absolute;
+  top: 38px;
+  width: 80px;
+}
+
+.aboutus-pvv .text-wrapper-17 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 24px;
+  left: 246px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 139px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .p-wrapper {
+  align-items: flex-start;
+  display: flex;
+  height: 96px;
+  left: 49px;
+  position: absolute;
+  top: 174px;
+  width: 455px;
+}
+
+.aboutus-pvv .text-wrapper-18 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 455px;
+}
+
+.aboutus-pvv .overlap-2 {
+  height: 531px;
+  left: 0;
+  position: absolute;
+  top: 1879px;
+  width: 1440px;
+}
+
+.aboutus-pvv .frame-3 {
+  background-image: url(./rectangle-13-2.png);
+  background-size: 100% 100%;
+  height: 531px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.aboutus-pvv .rectangle-5 {
+  background-color: #f0a31e;
+  border-radius: 17px;
+  height: 122px;
+  left: 110px;
+  position: absolute;
+  top: 300px;
+  width: 122px;
+}
+
+.aboutus-pvv .rectangle-6 {
+  background-color: #f0a31e;
+  border-radius: 17px;
+  height: 122px;
+  left: 1198px;
+  position: absolute;
+  top: 29px;
+  width: 122px;
+}
+
+.aboutus-pvv .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 498px;
+  position: absolute;
+  top: 435px;
+}
+
+.aboutus-pvv .text-wrapper-19 {
+  color: #ffffff;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.aboutus-pvv .frame-5 {
+  align-items: center;
+  border-radius: 153px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 52px;
+  justify-content: center;
+  position: relative;
+  width: 242px;
+}
+
+.aboutus-pvv .rectangle-7 {
+  background-color: var(--white-background);
+  border-radius: 76px;
+  height: 51px;
+  position: relative;
+  width: 226px;
+}
+
+.aboutus-pvv .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 62px;
+  position: absolute;
+  top: 16px;
+}
+
+.aboutus-pvv .text-wrapper-20 {
+  color: var(--secondary);
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .ci-download {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.aboutus-pvv .rectangle-8 {
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+  backdrop-filter: blur(30px) brightness(100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.22),
+      rgba(255, 255, 255, 0.2) 0.01%,
+      rgba(255, 255, 255, 0.8) 100%
+    )
+    1;
+  border-radius: 20px;
+  height: 320px;
+  left: 158px;
+  position: absolute;
+  top: 64px;
+  width: 1123px;
+}
+
+.aboutus-pvv .group {
+  height: 157px;
+  left: 238px;
+  position: absolute;
+  top: 179px;
+  width: 183px;
+}
+
+.aboutus-pvv .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 9px;
+  position: relative;
+}
+
+.aboutus-pvv .text-wrapper-21 {
+  color: #ffffff;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .group-2 {
+  height: 40px;
+  position: relative;
+  width: 86.11px;
+}
+
+.aboutus-pvv .heading {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 40px;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-22 {
+  color: #ffffff;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 24px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-23 {
+  color: #ffffff;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .line-2 {
+  height: 42px;
+  position: relative;
+  width: 4px;
+}
+
+.aboutus-pvv .frame-8 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 7px;
+  left: 633px;
+  position: absolute;
+  top: 179px;
+}
+
+.aboutus-pvv .group-3 {
+  height: 40px;
+  position: relative;
+  width: 107px;
+}
+
+.aboutus-pvv .heading-2 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  height: 40px;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-24 {
+  color: #ffffff;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 24px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .frame-9 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 9px;
+  left: 1018px;
+  position: absolute;
+  top: 179px;
+}
+
+.aboutus-pvv .group-4 {
+  height: 40px;
+  position: relative;
+  width: 152.72px;
+}
+
+.aboutus-pvv .TURN-OVER {
+  color: #ffffff;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  height: 30px;
+  left: 621px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 103px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-25 {
+  font-weight: 500;
+}
+
+.aboutus-pvv .text-wrapper-26 {
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.aboutus-pvv .frame-10 {
+  background-image: url(./frame-47.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 312px;
+  left: 96px;
+  position: absolute;
+  top: 2585px;
+  width: 284px;
+}
+
+.aboutus-pvv .frame-11 {
+  background-image: url(./frame-48.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 312px;
+  left: 418px;
+  position: absolute;
+  top: 2585px;
+  width: 284px;
+}
+
+.aboutus-pvv .frame-12 {
+  background-image: url(./frame-49.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 312px;
+  left: 740px;
+  position: absolute;
+  top: 2585px;
+  width: 284px;
+}
+
+.aboutus-pvv .frame-13 {
+  background-image: url(./frame-50.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 312px;
+  left: 1061px;
+  position: absolute;
+  top: 2585px;
+  width: 284px;
+}
+
+.aboutus-pvv .text-wrapper-27 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 24px;
+  left: 187px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2912px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .director-CFO {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 24px;
+  left: 192px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2946px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-28 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 24px;
+  left: 464px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2912px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-29 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 24px;
+  left: 535px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2946px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-30 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 24px;
+  left: 791px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2912px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-31 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 24px;
+  left: 856px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2946px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-32 {
+  color: #232323;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  height: 24px;
+  left: 1089px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2912px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .text-wrapper-33 {
+  color: #6f6f6f;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 24px;
+  left: 1144px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 2946px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .overlap-3 {
+  height: 106px;
+  left: 96px;
+  position: absolute;
+  top: 3911px;
+  width: 1248px;
+}
+
+.aboutus-pvv .group-5 {
+  height: 15px;
+  left: 467px;
+  position: absolute;
+  top: 55px;
+  width: 470px;
+}
+
+.aboutus-pvv .item-link-about-us-2 {
+  color: #767676;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 15px;
+  left: 0;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-investor-2 {
+  color: #767676;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 15px;
+  left: 129px;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-contact-us-2 {
+  color: #767676;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 15px;
+  left: 356px;
+  letter-spacing: 0.14px;
+  line-height: 15px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .frame-14 {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 802px;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.aboutus-pvv .frame-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.aboutus-pvv .link-logo-pvv-gif-2 {
+  height: 50px;
+  position: relative;
+  width: 136.36px;
+}
+
+.aboutus-pvv .group-6 {
+  height: 40px;
+  margin-right: -4px;
+  position: relative;
+  width: 315px;
+}
+
+.aboutus-pvv .element-PVV-infra {
+  color: #6f6f6f;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .link-thebrandworks {
+  color: #6f6f6f;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .frame-16 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.aboutus-pvv .text-wrapper-34 {
+  color: #6f6f6f;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.aboutus-pvv .list {
+  height: 28.5px;
+  position: relative;
+  width: 112.6px;
+}
+
+.aboutus-pvv .item-link {
+  color: #232323;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 12px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-2 {
+  color: #232323;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 12px;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-3 {
+  color: #232323;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 12px;
+  left: 46px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-4 {
+  color: #232323;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 12px;
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .item-link-5 {
+  color: #232323;
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 12px;
+  left: 102px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.aboutus-pvv .line-3 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3858px;
+  width: 1440px;
+}
